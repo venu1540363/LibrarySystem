@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #474747;
+	text-align: center;
+	text-rendering: auto;
+	font-size: 17px;
+	line-height: 1.6em;
+	height: 100vh;
+	overflow: hidden;
+	padding: 18%;
+	padding-top: 25vh;
+}
+
+.button {
+	display: inline-block;
+	position: relative;
+	padding: 2% 10% 2% 10%;
+	background: #474747;
+	border: none;
+	color: rgb(147, 147, 226);
+	transition: .2s;
+}
+
+.buttons {
+	padding: 0% 7% 10% 15%;
+}
+
+button:hover {
+	transform: scale(1.1);
+	color: aquamarine;
+	background-color: rgb(119, 119, 81);
+}
+
+th,
+td {
+	padding: 15px;
+	font-weight: 300px;
+}
+
+
+.button_cse,
+.button_ece,
+.button_civil,
+.button_chem,
+.button_mech,
+.button_mme,
+.button_puc {
+	padding: 35% 75px 35% 75px;
+	border-radius: 10px;
+	text-shadow: #48484d 10px;
+	text-decoration: solid;
+}
